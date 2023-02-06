@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  width: 1008px;
+  margin: 0 auto; /*Como centralizei*/
+  padding-top: 65px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display:flex;
+  gap: 48px;
+  list-style: none;
+}
+
+ul a {
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+  }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 58px 0 82px;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  width: 489px;
+  font-weight: 400;
+  color: black;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #89C5CC;
+}
+
+p {
+  color: #7D7987;
+  width: 438px;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 40px 0 40px;
+
+}
+
+button {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background: #69B99D;
+  border: 0;
+  padding: 18px 34px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4d967c;
+}
+
+.footer {
+  color: black;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.footer a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#balls {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+}
